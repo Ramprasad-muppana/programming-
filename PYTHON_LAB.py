@@ -90,8 +90,65 @@
 ##    l.append(c)    
 ##print(max(l))
 
-n=list(map(int,input().split()))
-print(n)
-a=set(n)
-n=list(a)
-print(n)
+##n=list(map(int,input().split()))
+##print(n)
+##a=set(n)
+##n=list(a)
+##print(n)
+
+##units=["inches","yards","milimeters","centimeters","meters","kilometers"]
+##c=[12,0.33333,0.000189393939,304.8,0.0003048]
+##f=float(input("enter in feets"))
+##for i in range(len(units)):
+##    print("enter",i+1,"to convert feets into",units[i])
+##a=int(input("enter your choice"))
+##a=a-1
+##b=f*c[a]
+##print(f'lenghth in {units[a+1]}={b}')
+
+##def sum_digits(n):
+##    s=0
+##    while(n>0):
+##        r=n%10
+##        s=s+r
+##        n=n//10
+##    return s
+##n=int(input(" "))
+##a=sum_digits(n)
+##print(a)
+##
+
+##def first_diff(a,b):
+##    m=max(len(a),len(b))
+##    for i in range(m):
+##        if i>=len(a) or i>=len(b):
+##            return i
+##        if a[i]!=b[i]:
+##            return i
+##    return -1
+##a=input("")
+##b=input("")
+##c=first_diff(a,b)
+##print(c)
+
+
+##def is_sorted(n):
+##    if n[0]==max(n):
+##        for i in range(len(n)-1):
+##            if n[i]<n[i+1]:
+##                return False
+##            else:
+##                return True
+##    elif n[0]==min(n):
+##        for i in range(len(n)-1):
+##            if n[i]>n[i+1]:
+##                return False
+##            else:
+##                return True
+##    else:
+##        return False
+##n=list(map(int,input().split()))
+##a=is_sorted(n)
+##print(a)
+
+
